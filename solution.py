@@ -3,7 +3,7 @@ import pandas as pd
 
 # Сгенерируем данные для задачи
 data = pd.DataFrame(
-    np.random.randint(low=0, high=4, size=(50, 2)), # 50000000
+    np.random.randint(low=0, high=4, size=(50000000, 2)), # 50000000
     columns=['prev_segment', 'new_segment'])
 
 # Создаем переменные с уникальными значения индекса и колонок
